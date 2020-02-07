@@ -33,7 +33,7 @@ export class CourseDisplay extends Component {
       return (
         <CourseEditor
           key={this.state.selectedCourse.id || -1}
-          product={this.state.selectedCourse}
+          course={this.state.selectedCourse}
           saveCallback={this.saveCourse}
           cancelCallback={this.cancelEditing}
         />
