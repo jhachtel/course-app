@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class InstructorTableRow extends Component {
+export default class InstructorTableRow extends Component {
   render() {
     let i = this.props.instructor;
     return (

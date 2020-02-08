@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import InstructorEditor from "./InstructorEditor";
-import InstructorTableRow from "./InstructorTableRow";
-import InstructorTable from "./InstructorTable";
+import { InstructorTable } from "./InstructorTable";
 
 export class InstructorDisplay extends Component {
   constructor(props) {

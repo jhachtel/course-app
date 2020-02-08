@@ -3,7 +3,7 @@ import { Selector } from "./Selector";
 import { CourseDisplay } from "./CourseDisplay";
 import { InstructorDisplay } from "./InstructorDisplay";
 
-export class Container extends Component {
+export default class Container extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -38,19 +38,19 @@ export class Container extends Component {
           id: 1,
           name: "Tony Stark",
           title: "CEO, Stark Enterprises",
-          courses: "1, 4"
+          courses: [1, 4]
         },
         {
           id: 2,
           name: "Bruce Wayne",
           title: "Chairman, Wayne Industries",
-          courses: "2"
+          courses: [2]
         },
         {
           id: 3,
           name: "T'challa",
           title: "King of Wakanda",
-          courses: "3"
+          courses: [3]
         }
       ]
     };

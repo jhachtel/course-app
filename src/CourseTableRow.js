@@ -8,7 +8,7 @@ export class CourseTableRow extends Component {
         <td>{course.id}</td>
         <td>{course.name}</td>
         <td>{course.college}</td>
-        <td className="text-right">{Number(course.number)}.toFixed(2)}</td>
+        <td className="text-right">{course.number}</td>
         <td>
           <button
             className="btn btn-sm btn-warning m-1"
