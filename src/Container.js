@@ -59,11 +59,15 @@ export default class Container extends Component {
 
   saveData = (collection, item) => {
     if (item.id === "") {
+      console.log(item);
+
       item.id = this.idCounter++;
       this.setState(
         state => (state[collection] = state[collection].concat(item))
       );
     } else {
+      console.log("update");
+      console.log(item);
       this.setState(
         state =>
           (state[collection] = state[collection].map(stored =>

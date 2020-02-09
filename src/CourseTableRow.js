@@ -8,7 +8,7 @@ export class CourseTableRow extends Component {
         <td>{course.id}</td>
         <td>{course.name}</td>
         <td>{course.college}</td>
-        <td className="text-right">{course.number}</td>
+        <td>{course.number}</td>
         <td>
           <button
             className="btn btn-sm btn-warning m-1"
@@ -16,8 +16,6 @@ export class CourseTableRow extends Component {
           >
             Edit
           </button>
-        </td>
-        <td>
           <button
             className="btn btn-sm btn-danger m-1"
             onClick={() => this.props.deleteCallback(course)}

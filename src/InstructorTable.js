@@ -7,6 +7,11 @@ export class InstructorTable extends Component {
       <table className="table table-sm table-striped table-bordered">
         <thead>
           <tr>
+            <th colSpan="5" className="bg-dark text-white text-center h4 p-2">
+              Instructors
+            </th>
+          </tr>
+          <tr>
             <th>ID</th>
             <th>Name</th>
             <th>Title</th>

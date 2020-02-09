@@ -7,10 +7,7 @@ export class CourseTable extends Component {
       <table className="table table-sm table-striped table-bordered">
         <thead>
           <tr>
-            <th
-              colSpan="5"
-              className="bg-primary text-white text-center h4 p-2"
-            >
+            <th colSpan="5" className="bg-dark text-white text-center h4 p-2">
               Courses
             </th>
           </tr>
@@ -18,7 +15,7 @@ export class CourseTable extends Component {
             <th>ID</th>
             <th>Name</th>
             <th>College</th>
-            <th></th>
+            <th>Number</th>
           </tr>
         </thead>
         <tbody>

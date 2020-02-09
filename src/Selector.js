@@ -16,14 +16,14 @@ export class Selector extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <div className="rown">
+        <div className="row">
           <div className="col-2">
             {React.Children.map(this.props.children, c => (
               <button
                 name={c.props.name}
                 onClick={this.setSelection}
                 className={`
-                         btn btn-primary m-2 
+                         btn btn-block m-2 
                          ${
                            this.state.selection === c.props.name
                              ? "btn btn-primary active"

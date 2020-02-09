@@ -63,8 +63,11 @@ export class CourseEditor extends Component {
           />
         </div>
         <div className="text-center">
+          <button className="btn btn-primary m-1" onClick={this.handleClick}>
+            Save
+          </button>
           <button
-            className="btn btn-secondary"
+            className="btn btn-secondary m-1"
             onClick={this.props.cancelCallback}
           >
             Cancel

@@ -77,10 +77,7 @@ export default class InstructorEditor extends Component {
           <button className="btn btn-primary m-1" onClick={this.handleClick}>
             Save
           </button>
-          <button
-            className="btn btn-secodary m-1"
-            onClick={this.props.cancelCallback}
-          >
+          <button className="btn btn-secondary m-1" onClick={this.handleClick}>
             Cancel
           </button>
         </div>

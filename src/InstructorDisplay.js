@@ -24,7 +24,7 @@ export class InstructorDisplay extends Component {
   };
 
   saveInstructor = instructor => {
-    this.props.saveInstructor(instructor);
+    this.props.saveCallback(instructor);
     this.setState({ showEditor: false, selected: null });
   };
 
