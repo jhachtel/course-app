@@ -22,7 +22,7 @@ export class InstructorTable extends Component {
           {this.props.instructors.map(i => (
             <InstructorTableRow
               instructor={i}
-              key={i.key}
+              key={i.id}
               editCallback={this.props.editCallback}
               deleteCallback={this.props.deleteCallback}
             />

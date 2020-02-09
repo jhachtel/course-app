@@ -15,12 +15,12 @@ export class CourseDisplay extends Component {
     this.setState({ showEditor: true, selectedCourse: course });
   };
 
-  createCourse = () => {
-    this.setState({ showEditor: true, selectedCourse: {} });
-  };
-
   cancelEditing = () => {
     this.setState({ showEditor: false, selectedCourse: null });
+  };
+
+  createCourse = () => {
+    this.setState({ showEditor: true, selectedCourse: {} });
   };
 
   saveCourse = course => {
