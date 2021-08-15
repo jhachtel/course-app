@@ -31,6 +31,12 @@ export default class App extends Component {
           name: "Innovations in Exoskeletons",
           college: "Avenger",
           number: "7805"
+        },
+        {
+          id: 5,
+          name: "Advanced Quantum Resonance Tuning with Applications for Kyber Crystals",
+          college: "Jedi Academy",
+          number: "327"
         }
       ],
       instructors: [
@@ -51,6 +57,12 @@ export default class App extends Component {
           name: "T'challa",
           title: "King of Wakanda",
           courses: [3]
+        },
+        {
+          id: 4,
+          name: "Luke Skywalker",
+          title: "Jedi Master",
+          courses: [5]
         }
       ]
     };
